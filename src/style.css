@@ -16,7 +16,7 @@ body{
     padding: 0px 20px;
     padding-top: 10px;
     font-size: 20px;
-    height: 50px;
+    padding: 13px 20px;
     border: 1px solid white;
     border-top-color: transparent;
     border-left-color: transparent;
@@ -28,7 +28,8 @@ body{
 #navbar{
     background-color: rgb(29, 27, 27);
     display: block;      
-    height: 50px;
+    
+    padding: 0px 0px;
     overflow:hidden;
 
 }
@@ -44,13 +45,12 @@ body{
 }
 
 #content{
-   background-color:lightcyan; 
+   background-color:white; 
    float: left;
-   margin-top: 0%;
-   height: 28rem;width: 70%;
-   overflow: auto;
-   
-   
+    width: 70%;
+    overflow: auto;
+    margin-top:0px;
+    padding-top: 10px;
 }
 #content :nth-child(1){
     font-size: 30px;
@@ -58,13 +58,14 @@ body{
     color: rgb(47, 90, 209);
 }
 #content p{
-    margin: 1rem 3rem; 
+    margin: 1rem 3rem;
+    position: relative; 
 }
 
 #sidebar{
     overflow: auto;
     background: rgb(221, 220, 220);
-    height: 28rem;
+    padding: 118px 10px;
 
 }
 #sidebar :nth-child(1){
@@ -77,11 +78,17 @@ body{
     margin: 20px 20px;
 }
 #footer{
-    height: 3.9rem;
+    overflow: fixed;
+    margin-top: auto;
+    padding-top: 3.9rem;
     background: rgb(202, 202, 202);
+    width: 100%;
+    position: relative;
 }
 #footer p{
+    
     float: right;
     padding-top: 0.5%;
     margin-right: 10px;
+    margin-top: -40px;
 }
