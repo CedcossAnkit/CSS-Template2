@@ -1,0 +1,87 @@
+body{
+    margin:0px;
+    padding: 0px;
+
+}
+#header h1{
+    background-color: rgb(194, 204, 207);
+    margin: 0px;
+    padding: 20px 10px;
+    font-family: sans-serif;
+}
+#navbar ul li{
+    float: left;
+    list-style: none;
+    color: white;
+    padding: 0px 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    height: 50px;
+    border: 1px solid white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+
+#navbar ul li:hover{
+    background-color: green;
+}
+#navbar{
+    background-color: rgb(29, 27, 27);
+    display: block;      
+    height: 50px;
+    overflow:hidden;
+
+}
+#navbar ul{
+    margin-left: -3%;
+    margin-top: 0%;
+    padding-top: 0px;
+
+}
+#navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+#content{
+   background-color:lightcyan; 
+   float: left;
+   margin-top: 0%;
+   height: 28rem;width: 70%;
+   overflow: auto;
+   
+   
+}
+#content :nth-child(1){
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(47, 90, 209);
+}
+#content p{
+    margin: 1rem 3rem; 
+}
+
+#sidebar{
+    overflow: auto;
+    background: rgb(221, 220, 220);
+    height: 28rem;
+
+}
+#sidebar :nth-child(1){
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #2f5ad1;
+    margin-top: 20px;
+}
+#sidebar p{
+    margin: 20px 20px;
+}
+#footer{
+    height: 3.9rem;
+    background: rgb(202, 202, 202);
+}
+#footer p{
+    float: right;
+    padding-top: 0.5%;
+    margin-right: 10px;
+}
